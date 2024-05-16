@@ -7,6 +7,14 @@ use App\Models\Task; // Crea il Task.
 
 class TaskController extends Controller
 {
+    public function homepage()
+    {
+        // parlare al database
+        // fare le validazioni
+        // generare dati nuovi
+        return view('welcome');
+    }
+    
     // Mostra l'elenco delle attività
     public function index()
     {
